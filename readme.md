@@ -1,4 +1,4 @@
-# 🧨 HTB - Alert AutoPwn Script
+# 🚨 HTB - Alert AutoPwn Script
 
 This script fully automates the exploitation of the retired Hack The Box machine **Alert**, including both **initial intrusion** and **privilege escalation to root**. It leverages a Markdown-based XSS, a local HTTP server, and a PHP reverse shell.
 
