@@ -178,7 +178,7 @@ def main():
 	parser.add_argument("--ip", required=True,
 						help="Attacker's IP to receive data (HTTP server or reverse shell)")
 	parser.add_argument("--port", type=int, default=8000,
-						help="Port for attacker's HTTP listener (intrusion) or reverse shell (privesc)")
+						help="Port for attacker's HTTP listener (intrusion)")
 	parser.add_argument("--url", default="http://alert.htb",
 						help="Target base URL (only for intrusion, default: http://alert.htb)")
 	parser.add_argument("--ssh-pass", help="Password for SSH access as 'albert' -> manchesterunited (required for privesc)")

